@@ -1,0 +1,11 @@
+.DS_Store
+*.o
+build/
+lhpc-aff-config
+lib/lhpc-aff.h
+lib/liblhpc-aff.a
+utils/lhpc-aff
+python/build/
+python31/build/
+python39/build/
+

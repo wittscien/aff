@@ -1,3 +1,6 @@
+#ifdef _MAC
+    #define _DARWIN_C_SOURCE
+#endif
 #include <stdio.h>
 #include <stdlib.h>
 #include <float.h>

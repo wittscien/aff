@@ -1,3 +1,6 @@
+#ifdef _MAC
+    #define _DARWIN_C_SOURCE
+#endif
 #include <stdint.h>
 #include <stdio.h>
 #ifdef HAS_INTEGRAL_OFF_T

@@ -1,3 +1,4 @@
+
 # This file is included into GNU Make file.
 #
 # Our build C compiler. It should support enough of C99.
@@ -17,7 +18,9 @@ install.CC=$(CC)
 CFLAGS=-Wall -O2 -DHAS_INTEGRAL_OFF_T \
                  -D_POSIX_C_SOURCE \
                  -D_LARGEFILE_SOURCE \
-                 -D_FILE_OFFSET_BITS=64
+                 -D_FILE_OFFSET_BITS=64 \
+                 -fPIC \
+                 -D_MAC
 #
 # C++ compiler and flags
 CXX = gcc
